@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #f0f2f5;
+}
+
+header {
+  background: #007bff;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.edit, .actions {
+  text-align: center;
+  padding: 15px;
+  background: white;
+  margin-top: 10px;
+}
+
+button, input[type="file"] {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.canvas {
+  background: white;
+  border: 2px dashed #ccc;
+  min-height: 300px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.element {
+  margin: 10px auto;
+  text-align: center;
+}
